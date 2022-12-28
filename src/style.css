@@ -1,0 +1,280 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#content {
+    height: 100%;
+    display: grid;
+    background: url("./images/backgroundpizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* This styles are for the HOME PAGE  */
+#headerContent {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#btn:hover {
+    border-bottom: 2px solid white;
+}
+
+
+#btn1:hover {
+    border-bottom: 2px solid white;
+}
+
+#btn2:hover {
+    border-bottom: 2px solid white;
+}
+ 
+#myList {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+#myList li {
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+#header{
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1 {
+    color: white;
+    font-size: 55px;
+    margin-bottom: 0%;
+}
+
+#mainContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    width: 700px;
+    height: 600px;
+    
+}
+
+#centerImage {
+    background: url(./images/pizzachef.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    border-radius:  50%;
+} 
+
+#firstText,
+#secondText{
+    padding: 10px 0px 
+}
+
+#secondText {
+    padding-bottom: 50px;
+}
+
+#thirdText {
+    padding-top: 50px;
+}
+
+#container div,
+#footer {
+    color: white;
+    font-size: 22px;
+}
+
+#footer {
+    height: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+/* contact page styles */
+#locationImage {
+   background: url(./images/location1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 600px;
+   height: 450px;
+   margin-top: 40px;
+}
+
+
+#location {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+/* menu page styles */
+#mainMenu {
+    display: none;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    height: 290px;
+    width: 300px;
+    align-self: center;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+#menu:hover {
+    background-color:rgb(255, 255, 255, 0.1);
+}
+
+#menu h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+
+#image1 {
+    background: url(./images/pizza11-removebg-preview.png);
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+}
+
+    
+#image2 {
+    background: url(./images/pizza11-removebg-preview.png);
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+        
+}
+
+   
+#image3 {
+    background: url(./images/pizza11-removebg-preview.png);
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+        
+}
+
+   
+#image4 {
+    background: url(./images/pizza11-removebg-preview.png);
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+        
+}
+
+   
+#image5 {
+    background: url(./images/pizza11-removebg-preview.png);
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+        
+}
+
+#image6 {
+ background: url(./images/pizza11-removebg-preview.png);
+ border-radius: 50%;
+ height: 100px;
+ width:  100px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ margin-left: 100px;
+     
+}
+  
+#image7 {
+    background: url(./images/pizza11-removebg-preview.png);
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+        
+}
+
+   
+#image8 {
+    background: url(./images/pizza11-removebg-preview.png);
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+        
+}
