@@ -3,13 +3,22 @@
     padding: 0%;
 }
 
-#content {
-    height: 100%;
-    display: grid;
+body {
     background: url("./images/backgroundpizza.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#content {
+    height: 100%;
+    display: grid;
+    background-color: aqua;
+    background: url("./images/backgroundpizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 /* This styles are for the HOME PAGE  */
 #headerContent {
