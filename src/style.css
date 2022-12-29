@@ -38,6 +38,10 @@ button {
 #btn2:hover {
     border-bottom: 2px solid white;
 }
+
+#btn3:hover {
+    border-bottom: 2px solid white;
+}
  
 #myList {
 
@@ -73,7 +77,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+ 
+    height: auto;
+    width: auto;
 }
+
 
 #container{
     padding-top: 40px;
@@ -136,17 +144,31 @@ button {
    margin-top: 40px;
 }
 
-
 #location {
     padding-top: 20px;
     font-size: 22px;
 }
+.contactNumber {
+    padding-right: 250px;
+    
+}
 
+.contactContainer {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    width: 700px;
+    height: 600px;
+    color: white;
+    font-size: 22px;
+}
 /* menu page styles */
 #mainMenu {
-    display: none;
-    padding: 50px;
     display: grid;
+    padding: 50px;
     grid-template-columns: repeat(2, 1fr);
     background-color: rgba(0, 0, 0, 0.5);
     gap: 50px;
