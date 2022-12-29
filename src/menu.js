@@ -1,7 +1,7 @@
+const mainMenu = document.createElement("div");
 const menu = () => {
 
     const menu = document.querySelector("#mainContainer"); 
-    const mainMenu = document.createElement("div");
     mainMenu.setAttribute("id", "mainMenu");
     const menu1 = document.createElement("div");
     const image1 = document.createElement("div");
@@ -109,6 +109,7 @@ const menu = () => {
     menu8.append(image8, header8, para8, param8, paragraph8);
     mainMenu.append(menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8);
     menu.append(mainMenu)
+    mainMenu.style.display = 'none';
 }
 
-export {menu}
+export {menu, mainMenu}
